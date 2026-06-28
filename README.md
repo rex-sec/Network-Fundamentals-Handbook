@@ -16,7 +16,7 @@ Ping is a network Utility used to test Connectivity beetween two devices.
 ### How it works:
 It sends a small packet called **ICMP Echo Request** to the target device. If the device is active, it sends back an **ICMP Echo Reply**
 
-### 📊 Network Connection Diagram (Ping Process)
+### Network Connection Diagram (Ping Process)
 
 ```
   [ Your PC ]  ---------------------------->  [ Google Server ]
@@ -59,7 +59,7 @@ Subnetting is a process of dividing one large network into multipal smaller netw
 ## ARP (Address Resolution Protocol)
 ARP is a protocol used to resolve an IP Address into MAC Address on a LAN.
 
-###  ARP Process Diagram
+### ARP Process Diagram
 
 ```
 1. ARP REQUEST (Broadcast - Subse Poochna)
