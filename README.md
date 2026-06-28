@@ -103,3 +103,59 @@ Jab aapka device Wi-Fi se connect hota hai, toh wo DHCP Server ke sath 4 steps m
    protocol--> UDP |  Server port--> 67  |   Client port--> 68
 
 
+## OSI Model (Open System Interconnection)
+
+| Layer | Layer Name      | Functions   |  Devices/Protocol | Data Unit (PDU) |
+| :---: | :---------------|-----------  |-------------------|-----------------|
+| **7** | **Application** |User Services| HTTP,HTTPS,FTP,DNS|      Data       |
+| **6** | **Presentation**| Encryption Compression| SSL,TLS |      Data       |
+| **5** | **Session**     | Start and End Session | NetBIOS |      Data       |
+| **4** | **Transport**   | Reliable Delivery     | TCP,UDP |Segme(TCP)/Datagram
+(UDP)|
+| **3** | **Network**     |Routing,IP Address | Router,IPv4,IPv6|Packet |
+| **2** | **Data Link**   |MAC Address,Frames | Swich|Frame |
+| **1** | **Physical**    |   Sends Bits      |  Hub,Cable  |   Bits    |
+
+## Packet 
+A Packet is a small unit of data sent over a network. it works network layer 3.
+
+ ## Frame
+ A frame carries the packet accross the local network.it works Data link layer (layer 2).
+
+ ## TCP(Transmission Control Protocol)/IP ( Three Way Handshake )
+ TCP establised a reliable Connection in three steps.
+
+**Sequence**
+SYN----------------------------->SYN/ACK--------------------------->ACk]
+
+**Purpose**
+Establised a reliable connection before data transfer.
+
+
+## UDP ( User Datagram Protocol)/IP
+Udp fast but unreliable protocol. No handshake ,faster than tcp . use in online gaming and vedio satreming.
+
+
+## Port Forwording 
+Allow external devices to access internal devices. 
+
+**ex-** Public IP ----------------> Router -----------> Ports ---------------->Web Servers.
+
+
+## Firewalls 
+A firewalls moniter natwork traffic. it allows or block traffic based on security rules.
+**Functions**
+- filter packets
+- Block attackers
+- Protect System
+- Controll Network Access
+  
+**Rules**
+- Allow     - Deny
+
+## VPN ( Vertual Private Network )
+A VPN Creates encrypted Connection hide your real IP Address and Protect data on public Wi-Fi.
+
+
+
+
