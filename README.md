@@ -33,16 +33,16 @@ It sends a small packet called **ICMP Echo Request** to the target device. If th
 * `ping 8.8.8.8`
 * `ping google.com`
 
-##LAN Topologies
+## LAN Topologies
 A LAN Topology is the physical or logical layout of devices in a local area network.
 
--1.Star Topology
+- 1.Star Topology
 Star topology is a network topology in which all devices are connected to central swich or Hub.
 
--2.Bus Topology
+- 2.Bus Topology
 bus topology is a network topology in which all devices are connected to a single backbone cable.
 
--3.Ring Topology
+- 3.Ring Topology
 Ring topology is a network topology in which each device is connected to two other devices. forming and circular.
 
 
@@ -100,6 +100,6 @@ Jab aapka device Wi-Fi se connect hota hai, toh wo DHCP Server ke sath 4 steps m
             |   "Done! You can use it now for 24 hours."  |
             v                                             v
 ```
-   protocol--> UDP   Server port--> 67     Client port--> 68
+   protocol--> UDP |  Server port--> 67  |   Client port--> 68
 
 
