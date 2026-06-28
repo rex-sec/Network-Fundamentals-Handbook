@@ -1,4 +1,4 @@
-  # Network-Fundamentals-Handbook]
+ # Network-Fundamentals-Handbook]
 ## 1. What is Network?
 Netorking is the process of connecting two and more devices each other. So they can communicate and share data with each other. 
 
